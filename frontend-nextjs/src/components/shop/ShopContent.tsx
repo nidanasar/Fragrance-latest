@@ -71,7 +71,7 @@ export const ShopContent = ({ initialProducts, categories }: ShopContentProps) =
 
     const queryString = params.toString();
     const newPath = queryString ? `/shop?${queryString}` : "/shop";
-    router.replace(newPath, { shallow: true });
+    router.replace(newPath);
   }, [selectedCategory, priceRange, searchParam, minPrice, maxPrice, router]);
 
   // Filter products based on category, price, and search
