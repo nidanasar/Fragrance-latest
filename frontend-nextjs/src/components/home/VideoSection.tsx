@@ -14,7 +14,7 @@ export const VideoSection = () => {
         className="w-full h-full object-cover"
       >
         <source
-          src="/video/video-1.mov"
+          src="/video/oud-video.mp4"
           type="video/mp4"
         />
       </video>
